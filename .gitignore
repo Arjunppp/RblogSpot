@@ -1,0 +1,52 @@
+# Server-side
+server-side/node_modules/
+server-side/npm-debug.log*
+server-side/yarn-debug.log*
+server-side/yarn-error.log*
+
+# Build and cache directories
+server-side/dist/
+server-side/build/
+server-side/.cache/
+
+# Environment files
+server-side/.env
+server-side/.env.local
+server-side/.env.development.local
+server-side/.env.test.local
+server-side/.env.production.local
+
+# Logs
+server-side/logs/
+server-side/*.log
+server-side/pids/
+server-side/*.pid
+server-side/*.seed
+server-side/*.pid.lock
+
+# Runtime data
+server-side/lib-cov/
+server-side/coverage/
+
+# Client-side
+client-side/node_modules/
+client-side/dist/
+client-side/build/
+client-side/.cache/
+
+# Build outputs
+client-side/*.out
+client-side/*.log
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker files (if applicable)
+docker-compose.override.yml
