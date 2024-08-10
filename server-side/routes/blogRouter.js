@@ -1,7 +1,7 @@
 import express from 'express';
-import { handleGetAllBlogs } from '../controllers/blogController.js';
+import * as blogController from '../controllers/blogController.js';
 
 export const  blogRouter = express.Router();
 
 
-blogRouter.route('/').get(handleGetAllBlogs);
+blogRouter.route('/').get(blogController.handleGetAllBlogs);
